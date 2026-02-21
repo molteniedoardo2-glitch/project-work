@@ -1,0 +1,268 @@
+import pandas as pd
+import string
+import csv
+import os
+from sklearn.model_selection import train_test_split
+from sklearn.feature_extraction.text import TfidfVectorizer
+from sklearn.linear_model import LogisticRegression
+from sklearn.pipeline import Pipeline
+from sklearn.metrics import classification_report
+import tkinter as tk
+from tkinter import messagebox
+from imblearn.pipeline import Pipeline as ImbPipeline
+from imblearn.over_sampling import SMOTE
+
+
+def Train_AI(df):   
+    
+    # addestra il modello di classificazione categoria
+    # usa TF-IDF per trasformare il testo in numeri e SMOTE per bilanciare il dataset
+    
+    temp_df = df.copy()     # usa una copia per evitare modifiche al database originale
+
+    # combina Title e Body per ottenere un testo più ricco e informativo
+    temp_df["text"] = temp_df["Title"] + " " + temp_df["Body"]
+
+    X = temp_df["text"]          # testo completo
+    y = temp_df["Category"]      # categoria da predire
+
+    # suddivisione train/test con stratificazione per mantenere proporzioni tra categorie
+    X_train, X_test, y_train, y_test = train_test_split(
+        X, y, test_size=0.2, random_state=42, stratify=y
+    )
+
+    # lista di stopword italiane personalizzate
+    # (scikit-learn non supporta stop_words="italian" quinid è neccessario crearne uno personallizzato)
+    italian_stopwords = [
+        "il", "lo", "la", "i", "gli", "le",
+        "un", "uno", "una",
+        "di", "a", "da", "in", "con", "su", "per", "tra", "fra",
+        "che", "come", "dove", "quando",
+        "e", "o", "ma", "anche", "se",
+    ]
+
+    # pipeline:
+    # 1) TF-IDF → trasforma il testo in vettori numerici
+    # 2) SMOTE → bilancia il dataset creando esempi sintetici per categorie rare
+    # 3) Logistic Regression → classificatore finale
+    model = ImbPipeline([
+        ("tfidf", TfidfVectorizer(
+            stop_words=italian_stopwords,   # rimuove parole comuni
+            ngram_range=(1, 2),             # usa parole singole e coppie di parole
+            min_df=2,                       # ignora parole troppo rare
+            max_df=0.9                      # ignora parole troppo comuni
+        )),
+        ("smote", SMOTE(random_state=42)),  # bilanciamento del dataset
+        ("clf", LogisticRegression(
+            max_iter=3000,                  # aumenta iterazioni per stabilità
+            class_weight=None               # SMOTE rende inutile "balanced"
+        ))
+    ])
+
+    # addestramento del modello
+    model.fit(X_train, y_train)
+
+    # report di valutazione sul test set
+    y_pred = model.predict(X_test)
+    print("\n--- REPORT DI CLASSIFICAZIONE ---")
+    print(classification_report(y_test, y_pred))
+
+    return model
+
+
+def assign_priority(text):  # assegna una priorità in base alla presenza di parole chiave nel testo
+    
+    urgent_keywords = [
+        "errore", "bug", "crash", "critico", "problema",
+        "accesso", "sicurezza", "urgente", "bloccato",
+        "server", "malfunzionamento", "presto", "urgenza",
+        "subito", "prima possibile"
+    ]
+
+    medium_keywords = [
+        "aggiornare", "analizzare", "verificare",
+        "installare", "configurare", "ottimizzare",
+        "documentazione", "contratti", "contratto"
+    ]
+
+    # controlla se il testo contiene parole urgenti
+    if any(word in text for word in urgent_keywords):
+        return "alta"
+
+    # controlla se contiene parole medie
+    if any(word in text for word in medium_keywords):
+        return "media"
+
+    # altrimenti priorità bassa
+    return "bassa"
+
+
+def run_gui(model, df, nome_file):  # crea la GUI Tkinter per inserire nuovi ticket
+
+    def predict_and_save():
+        nonlocal df
+
+        #lLettura dei campi dalla GUI 
+        title = entry_title.get()
+        body = text_body.get("1.0", tk.END).strip()
+
+        # controllo campi vuoti 
+        if not title or not body:
+            messagebox.showwarning("Attenzione", "Compila tutti i campi.")
+            return
+
+        # pulizia del testo da punteggiatura 
+        
+        for p in string.punctuation:
+            title = title.replace(p, " ")
+            body = body.replace(p, " ")
+
+        # il testo viene reso tutto minuscolo
+        text = (title + " " + body).lower()
+
+        # predizione categoria e priorità 
+        predicted_category = model.predict([text])[0]
+        predicted_priority = assign_priority(text)
+
+        # aggiornamento GUI con le predizioni
+        label_result_cat.config(text=f"Categoria prevista: {predicted_category}")
+        label_result_pri.config(text=f"Priorità prevista: {predicted_priority}")
+
+        # imposta la priorità selezionabile come quella prevista
+        selected_priority.set(predicted_priority)
+
+        # chiede all'utente se vuole modificare la priorità 
+        modifica = messagebox.askyesno(
+            "Modifica priorità",
+            f"La priorità prevista è '{predicted_priority}'.\n"
+            "Vuoi modificarla prima di salvare?"
+        )
+
+        # se l'utente vuole modificare apre una finestra dedicata 
+        if modifica:
+            open_priority_window(predicted_category, predicted_priority, title, body)
+            return
+
+        # se non vuole modificare salva direttamente
+        save_ticket(title, body, predicted_category, predicted_priority)
+
+    def open_priority_window(category, predicted_priority, title, body):
+        """
+        finestra separata per permettere all'utente di modificare la priorità.
+        Viene mostrata solo se l'utente ha scelto 'Sì' nella finestra precedente.
+        """
+
+        # creazione finestra secondaria
+        win = tk.Toplevel()
+        win.title("Modifica Priorità")
+        win.geometry("300x200")
+
+        tk.Label(win, text="Seleziona la nuova priorità:", font=("Helvetica", 12)).pack(pady=10)
+
+        # variabile temporanea per la scelta dell'utente
+        temp_priority = tk.StringVar(value=predicted_priority)
+
+        # pulsanti di scelta priorità 
+        tk.Radiobutton(win, text="Alta", value="alta", variable=temp_priority).pack()
+        tk.Radiobutton(win, text="Media", value="media", variable=temp_priority).pack()
+        tk.Radiobutton(win, text="Bassa", value="bassa", variable=temp_priority).pack()
+
+        # funzione interna per confermare la scelta 
+        def conferma():
+            final_priority = temp_priority.get()
+            win.destroy()  # chiude la finestra
+            save_ticket(title, body, category, final_priority)
+
+        # pulsante di conferma 
+        tk.Button(win, text="Conferma", command=conferma).pack(pady=15)
+
+    def save_ticket(title, body, category, priority):
+        """
+        Salva il ticket nel CSV aggiornando il dataframe.
+        Funzione separata per mantenere il codice più pulito e riutilizzabile.
+        """
+        nonlocal df
+
+        # generazione nuovo ID
+        new_id = df["Id"].max() + 1 if not df.empty else 1
+
+        # creazione nuova riga
+        new_row = {
+            "Id": new_id,
+            "Title": title,
+            "Body": body,
+            "Category": category,
+            "Priority": priority
+        }
+
+        # salvataggio su CSV con gestione errori
+        try:
+            df = pd.concat([df, pd.DataFrame([new_row])], ignore_index=True)
+            df.to_csv(nome_file, index=False)
+            messagebox.showinfo("Salvato", "Nuova voce aggiunta al database.")
+        except PermissionError:
+            messagebox.showerror(
+                "Errore",
+                "Impossibile salvare il file. Chiudilo se è aperto in un altro programma."
+            )
+
+ # creazione della finestra principale dell'applicazione
+    root = tk.Tk()
+    root.title("elaboratore ticket")          # titolo della finestra
+    root.geometry("600x500")                  # dimensioni della finestra
+
+    # campo di input per il titolo del ticket
+    tk.Label(root, text="titolo:").pack()
+    entry_title = tk.Entry(root, width=50)    # casella di testo per il titolo
+    entry_title.pack()
+
+    # campo di input per la descrizione del ticket
+    tk.Label(root, text="descrizione:").pack()
+    text_body = tk.Text(root, height=10, width=50)   # area di testo per la descrizione
+    text_body.pack()
+
+    # pulsante che avvia la predizione e il flusso di salvataggio
+    btn = tk.Button(root, text="predici e salva", command=predict_and_save)
+    btn.pack(pady=10)
+
+    # etichetta che mostra la categoria prevista dal modello
+    label_result_cat = tk.Label(root, text="categoria prevista: -")
+    label_result_cat.pack()
+
+    # etichetta che mostra la priorità prevista dal modello
+    label_result_pri = tk.Label(root, text="priorità prevista: -")
+    label_result_pri.pack()
+
+    # variabile tkinter che memorizza la priorità prevista, viene usata per passare il valore alla finestra secondaria
+    selected_priority = tk.StringVar(value="bassa")
+
+    # avvio del loop principale della gui e mantiene la finestra aperta e attesa dell'utente
+    root.mainloop()
+
+
+if __name__ == "__main__":
+    nome_file = 'database.csv'  # nome del file database
+
+    # se il file esiste allora lo carica
+    if os.path.isfile(nome_file):
+        df = pd.read_csv("database.csv")
+
+    else:
+        # se non esiste allora crea un database minimo
+        print(f"Il file '{nome_file}' NON esiste. Creazione nuovo database.")
+        a = []
+        a.append([
+            0,
+            "problemi di documentazione con la consegna",
+            "la documentazione necessaria per la bolla di consegna è incorretta",
+            "Amministrazione",
+            "media"
+        ])
+        df = pd.DataFrame(a, columns=['Id', 'Title', 'Body', 'Category', 'Priority'])
+        df.to_csv('database.csv')
+
+    # addestra il modello
+    model = Train_AI(df)
+
+    # avvia la GUI
+    run_gui(model, df, nome_file)
