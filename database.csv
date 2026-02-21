@@ -1,0 +1,403 @@
+Id,Title,Body,Category,Priority
+0,Verifica documentazione amministrativa,Si richiede una revisione dei contratti aziendali per aggiornare le clausole e garantire una maggiore tutela legale,Amministrazione,media
+1,Problema rete interna,Il server principale mostra rallentamenti significativi e richiede una verifica tecnica approfondita per evitare possibili interruzioni,Tecnico,alta
+2,Analisi costi operativi,Il dipendente richiede una revisione completa delle procedure interne per migliorare la gestione dei flussi amministrativi e garantire maggiore efficienza operativa,Amministrazione,alta
+3,Studio mercato di riferimento,Il team commerciale deve studiare il mercato di riferimento per identificare nuove opportunita e migliorare la strategia di vendita,Commerciale,alta
+4,Problema rete interna,Diversi utenti segnalano difficolta di accesso al sistema e il tecnico deve analizzare il problema per ripristinare la piena funzionalita del servizio,Tecnico,alta
+5,Analisi costi operativi,Occorre gestire una serie di pratiche interne che richiedono coordinamento tra diversi reparti per evitare ritardi nelle attivita,Amministrazione,alta
+6,Aggiornamento listino prodotti,Il reparto vendite deve preparare una proposta dettagliata per un nuovo cliente includendo analisi dei costi benefici e descrizione dei servizi offerti,Commerciale,alta
+7,Analisi malfunzionamento applicativo,Il software gestionale necessita di un aggiornamento per correggere errori e migliorare le prestazioni complessive del sistema,Tecnico,alta
+8,Aggiornamento software gestionale,Diversi utenti segnalano difficolta di accesso al sistema e il tecnico deve analizzare il problema per ripristinare la piena funzionalita del servizio,Tecnico,media
+9,Studio mercato di riferimento,Occorre aggiornare il listino prodotti per riflettere le nuove condizioni commerciali e garantire trasparenza verso i clienti,Commerciale,media
+10,Pianificazione incontro vendita,Occorre aggiornare il listino prodotti per riflettere le nuove condizioni commerciali e garantire trasparenza verso i clienti,Commerciale,media
+11,Aggiornamento software gestionale,Un applicativo aziendale presenta un malfunzionamento che impedisce agli utenti di completare alcune operazioni fondamentali,Tecnico,bassa
+12,Verifica server principale,Un applicativo aziendale presenta un malfunzionamento che impedisce agli utenti di completare alcune operazioni fondamentali,Tecnico,bassa
+13,Aggiornamento listino prodotti,Occorre aggiornare il listino prodotti per riflettere le nuove condizioni commerciali e garantire trasparenza verso i clienti,Commerciale,alta
+14,Aggiornamento listino prodotti,Il reparto vendite deve preparare una proposta dettagliata per un nuovo cliente includendo analisi dei costi benefici e descrizione dei servizi offerti,Commerciale,alta
+15,Aggiornamento software gestionale,Il software gestionale necessita di un aggiornamento per correggere errori e migliorare le prestazioni complessive del sistema,Tecnico,alta
+16,Analisi richieste cliente,Il cliente ha richiesto informazioni aggiuntive e occorre analizzare le sue esigenze per formulare una risposta adeguata,Commerciale,bassa
+17,Preparazione offerta commerciale,Occorre aggiornare il listino prodotti per riflettere le nuove condizioni commerciali e garantire trasparenza verso i clienti,Commerciale,bassa
+18,Analisi malfunzionamento applicativo,Il software gestionale necessita di un aggiornamento per correggere errori e migliorare le prestazioni complessive del sistema,Tecnico,bassa
+19,Richiesta aggiornamento procedure interne,L ufficio necessita di una verifica approfondita della documentazione per assicurare la conformita alle normative vigenti e migliorare la tracciabilita dei processi,Amministrazione,alta
+20,Verifica server principale,La rete interna presenta instabilita che compromettono il lavoro dei dipendenti e richiedono un intervento immediato per identificare la causa,Tecnico,media
+21,Analisi richieste cliente,Il team commerciale deve studiare il mercato di riferimento per identificare nuove opportunita e migliorare la strategia di vendita,Commerciale,media
+22,Richiesta aggiornamento procedure interne,L ufficio necessita di una verifica approfondita della documentazione per assicurare la conformita alle normative vigenti e migliorare la tracciabilita dei processi,Amministrazione,media
+23,Preparazione offerta commerciale,Occorre aggiornare il listino prodotti per riflettere le nuove condizioni commerciali e garantire trasparenza verso i clienti,Commerciale,media
+24,Gestione pratiche interne,L ufficio necessita di una verifica approfondita della documentazione per assicurare la conformita alle normative vigenti e migliorare la tracciabilita dei processi,Amministrazione,bassa
+25,Problema rete interna,Il server principale mostra rallentamenti significativi e richiede una verifica tecnica approfondita per evitare possibili interruzioni,Tecnico,media
+26,Verifica server principale,Diversi utenti segnalano difficolta di accesso al sistema e il tecnico deve analizzare il problema per ripristinare la piena funzionalita del servizio,Tecnico,media
+27,Preparazione offerta commerciale,Il cliente ha richiesto informazioni aggiuntive e occorre analizzare le sue esigenze per formulare una risposta adeguata,Commerciale,bassa
+28,Analisi malfunzionamento applicativo,Un applicativo aziendale presenta un malfunzionamento che impedisce agli utenti di completare alcune operazioni fondamentali,Tecnico,bassa
+29,Aggiornamento listino prodotti,Il team commerciale deve studiare il mercato di riferimento per identificare nuove opportunita e migliorare la strategia di vendita,Commerciale,media
+30,Errore critico nel sistema di autenticazione,La rete interna presenta instabilita che compromettono il lavoro dei dipendenti e richiedono un intervento immediato per identificare la causa,Tecnico,media
+31,Pianificazione incontro vendita,Occorre aggiornare il listino prodotti per riflettere le nuove condizioni commerciali e garantire trasparenza verso i clienti,Commerciale,alta
+32,Studio mercato di riferimento,Il cliente ha richiesto informazioni aggiuntive e occorre analizzare le sue esigenze per formulare una risposta adeguata,Commerciale,alta
+33,Studio mercato di riferimento,Il cliente ha richiesto informazioni aggiuntive e occorre analizzare le sue esigenze per formulare una risposta adeguata,Commerciale,alta
+34,Preparazione offerta commerciale,Occorre aggiornare il listino prodotti per riflettere le nuove condizioni commerciali e garantire trasparenza verso i clienti,Commerciale,bassa
+35,Verifica documentazione amministrativa,E necessaria un analisi dettagliata dei costi operativi per individuare possibili ottimizzazioni e riduzioni di spesa,Amministrazione,media
+36,Richiesta aggiornamento procedure interne,L ufficio necessita di una verifica approfondita della documentazione per assicurare la conformita alle normative vigenti e migliorare la tracciabilita dei processi,Amministrazione,bassa
+37,Analisi costi operativi,Si richiede una revisione dei contratti aziendali per aggiornare le clausole e garantire una maggiore tutela legale,Amministrazione,alta
+38,Richiesta aggiornamento procedure interne,Si richiede una revisione dei contratti aziendali per aggiornare le clausole e garantire una maggiore tutela legale,Amministrazione,bassa
+39,Richiesta aggiornamento procedure interne,E necessaria un analisi dettagliata dei costi operativi per individuare possibili ottimizzazioni e riduzioni di spesa,Amministrazione,alta
+40,Revisione contratti aziendali,L ufficio necessita di una verifica approfondita della documentazione per assicurare la conformita alle normative vigenti e migliorare la tracciabilita dei processi,Amministrazione,alta
+41,Problema rete interna,Un applicativo aziendale presenta un malfunzionamento che impedisce agli utenti di completare alcune operazioni fondamentali,Tecnico,alta
+42,Analisi richieste cliente,Il team commerciale deve studiare il mercato di riferimento per identificare nuove opportunita e migliorare la strategia di vendita,Commerciale,media
+43,Revisione contratti aziendali,Occorre gestire una serie di pratiche interne che richiedono coordinamento tra diversi reparti per evitare ritardi nelle attivita,Amministrazione,media
+44,Analisi costi operativi,Si richiede una revisione dei contratti aziendali per aggiornare le clausole e garantire una maggiore tutela legale,Amministrazione,bassa
+45,Preparazione offerta commerciale,Il cliente ha richiesto informazioni aggiuntive e occorre analizzare le sue esigenze per formulare una risposta adeguata,Commerciale,bassa
+46,Analisi costi operativi,L ufficio necessita di una verifica approfondita della documentazione per assicurare la conformita alle normative vigenti e migliorare la tracciabilita dei processi,Amministrazione,media
+47,Verifica documentazione amministrativa,Il dipendente richiede una revisione completa delle procedure interne per migliorare la gestione dei flussi amministrativi e garantire maggiore efficienza operativa,Amministrazione,alta
+48,Verifica documentazione amministrativa,Occorre gestire una serie di pratiche interne che richiedono coordinamento tra diversi reparti per evitare ritardi nelle attivita,Amministrazione,media
+49,Analisi richieste cliente,Il cliente ha richiesto informazioni aggiuntive e occorre analizzare le sue esigenze per formulare una risposta adeguata,Commerciale,media
+50,Analisi malfunzionamento applicativo,La rete interna presenta instabilita che compromettono il lavoro dei dipendenti e richiedono un intervento immediato per identificare la causa,Tecnico,media
+51,Aggiornamento software gestionale,Il server principale mostra rallentamenti significativi e richiede una verifica tecnica approfondita per evitare possibili interruzioni,Tecnico,media
+52,Analisi costi operativi,Il dipendente richiede una revisione completa delle procedure interne per migliorare la gestione dei flussi amministrativi e garantire maggiore efficienza operativa,Amministrazione,media
+53,Verifica server principale,Diversi utenti segnalano difficolta di accesso al sistema e il tecnico deve analizzare il problema per ripristinare la piena funzionalita del servizio,Tecnico,bassa
+54,Aggiornamento listino prodotti,Occorre aggiornare il listino prodotti per riflettere le nuove condizioni commerciali e garantire trasparenza verso i clienti,Commerciale,media
+55,Analisi richieste cliente,Il team commerciale deve studiare il mercato di riferimento per identificare nuove opportunita e migliorare la strategia di vendita,Commerciale,media
+56,Richiesta aggiornamento procedure interne,E necessaria un analisi dettagliata dei costi operativi per individuare possibili ottimizzazioni e riduzioni di spesa,Amministrazione,alta
+57,Analisi richieste cliente,Il reparto vendite deve preparare una proposta dettagliata per un nuovo cliente includendo analisi dei costi benefici e descrizione dei servizi offerti,Commerciale,media
+58,Verifica documentazione amministrativa,Occorre gestire una serie di pratiche interne che richiedono coordinamento tra diversi reparti per evitare ritardi nelle attivita,Amministrazione,bassa
+59,Problema rete interna,La rete interna presenta instabilita che compromettono il lavoro dei dipendenti e richiedono un intervento immediato per identificare la causa,Tecnico,bassa
+60,Analisi richieste cliente,Il reparto vendite deve preparare una proposta dettagliata per un nuovo cliente includendo analisi dei costi benefici e descrizione dei servizi offerti,Commerciale,bassa
+61,Analisi malfunzionamento applicativo,Un applicativo aziendale presenta un malfunzionamento che impedisce agli utenti di completare alcune operazioni fondamentali,Tecnico,alta
+62,Analisi malfunzionamento applicativo,Il server principale mostra rallentamenti significativi e richiede una verifica tecnica approfondita per evitare possibili interruzioni,Tecnico,bassa
+63,Analisi malfunzionamento applicativo,Diversi utenti segnalano difficolta di accesso al sistema e il tecnico deve analizzare il problema per ripristinare la piena funzionalita del servizio,Tecnico,media
+64,Problema rete interna,Diversi utenti segnalano difficolta di accesso al sistema e il tecnico deve analizzare il problema per ripristinare la piena funzionalita del servizio,Tecnico,bassa
+65,Analisi malfunzionamento applicativo,La rete interna presenta instabilita che compromettono il lavoro dei dipendenti e richiedono un intervento immediato per identificare la causa,Tecnico,bassa
+66,Analisi richieste cliente,E necessario pianificare un incontro commerciale per presentare i prodotti aziendali e valutare le opportunita di collaborazione,Commerciale,bassa
+67,Errore critico nel sistema di autenticazione,Il software gestionale necessita di un aggiornamento per correggere errori e migliorare le prestazioni complessive del sistema,Tecnico,bassa
+68,Analisi richieste cliente,Il reparto vendite deve preparare una proposta dettagliata per un nuovo cliente includendo analisi dei costi benefici e descrizione dei servizi offerti,Commerciale,bassa
+69,Aggiornamento listino prodotti,Il team commerciale deve studiare il mercato di riferimento per identificare nuove opportunita e migliorare la strategia di vendita,Commerciale,media
+70,Studio mercato di riferimento,Il cliente ha richiesto informazioni aggiuntive e occorre analizzare le sue esigenze per formulare una risposta adeguata,Commerciale,media
+71,Analisi malfunzionamento applicativo,Diversi utenti segnalano difficolta di accesso al sistema e il tecnico deve analizzare il problema per ripristinare la piena funzionalita del servizio,Tecnico,media
+72,Verifica documentazione amministrativa,Il dipendente richiede una revisione completa delle procedure interne per migliorare la gestione dei flussi amministrativi e garantire maggiore efficienza operativa,Amministrazione,alta
+73,Richiesta aggiornamento procedure interne,Si richiede una revisione dei contratti aziendali per aggiornare le clausole e garantire una maggiore tutela legale,Amministrazione,alta
+74,Errore critico nel sistema di autenticazione,Diversi utenti segnalano difficolta di accesso al sistema e il tecnico deve analizzare il problema per ripristinare la piena funzionalita del servizio,Tecnico,bassa
+75,Problema rete interna,Diversi utenti segnalano difficolta di accesso al sistema e il tecnico deve analizzare il problema per ripristinare la piena funzionalita del servizio,Tecnico,alta
+76,Preparazione offerta commerciale,Il cliente ha richiesto informazioni aggiuntive e occorre analizzare le sue esigenze per formulare una risposta adeguata,Commerciale,alta
+77,Problema rete interna,Il software gestionale necessita di un aggiornamento per correggere errori e migliorare le prestazioni complessive del sistema,Tecnico,bassa
+78,Analisi costi operativi,Si richiede una revisione dei contratti aziendali per aggiornare le clausole e garantire una maggiore tutela legale,Amministrazione,alta
+79,Gestione pratiche interne,E necessaria un analisi dettagliata dei costi operativi per individuare possibili ottimizzazioni e riduzioni di spesa,Amministrazione,alta
+80,Aggiornamento software gestionale,Il software gestionale necessita di un aggiornamento per correggere errori e migliorare le prestazioni complessive del sistema,Tecnico,media
+81,Studio mercato di riferimento,Il cliente ha richiesto informazioni aggiuntive e occorre analizzare le sue esigenze per formulare una risposta adeguata,Commerciale,bassa
+82,Analisi costi operativi,Occorre gestire una serie di pratiche interne che richiedono coordinamento tra diversi reparti per evitare ritardi nelle attivita,Amministrazione,alta
+83,Analisi costi operativi,Si richiede una revisione dei contratti aziendali per aggiornare le clausole e garantire una maggiore tutela legale,Amministrazione,bassa
+84,Analisi malfunzionamento applicativo,La rete interna presenta instabilita che compromettono il lavoro dei dipendenti e richiedono un intervento immediato per identificare la causa,Tecnico,alta
+85,Analisi malfunzionamento applicativo,Un applicativo aziendale presenta un malfunzionamento che impedisce agli utenti di completare alcune operazioni fondamentali,Tecnico,bassa
+86,Gestione pratiche interne,Occorre gestire una serie di pratiche interne che richiedono coordinamento tra diversi reparti per evitare ritardi nelle attivita,Amministrazione,alta
+87,Analisi richieste cliente,Il cliente ha richiesto informazioni aggiuntive e occorre analizzare le sue esigenze per formulare una risposta adeguata,Commerciale,media
+88,Aggiornamento listino prodotti,Il cliente ha richiesto informazioni aggiuntive e occorre analizzare le sue esigenze per formulare una risposta adeguata,Commerciale,media
+89,Gestione pratiche interne,E necessaria un analisi dettagliata dei costi operativi per individuare possibili ottimizzazioni e riduzioni di spesa,Amministrazione,bassa
+90,Pianificazione incontro vendita,Il reparto vendite deve preparare una proposta dettagliata per un nuovo cliente includendo analisi dei costi benefici e descrizione dei servizi offerti,Commerciale,bassa
+91,Preparazione offerta commerciale,Il team commerciale deve studiare il mercato di riferimento per identificare nuove opportunita e migliorare la strategia di vendita,Commerciale,alta
+92,Revisione contratti aziendali,E necessaria un analisi dettagliata dei costi operativi per individuare possibili ottimizzazioni e riduzioni di spesa,Amministrazione,alta
+93,Analisi costi operativi,E necessaria un analisi dettagliata dei costi operativi per individuare possibili ottimizzazioni e riduzioni di spesa,Amministrazione,alta
+94,Aggiornamento software gestionale,Un applicativo aziendale presenta un malfunzionamento che impedisce agli utenti di completare alcune operazioni fondamentali,Tecnico,bassa
+95,Errore critico nel sistema di autenticazione,Diversi utenti segnalano difficolta di accesso al sistema e il tecnico deve analizzare il problema per ripristinare la piena funzionalita del servizio,Tecnico,bassa
+96,Analisi richieste cliente,E necessario pianificare un incontro commerciale per presentare i prodotti aziendali e valutare le opportunita di collaborazione,Commerciale,alta
+97,Analisi richieste cliente,E necessario pianificare un incontro commerciale per presentare i prodotti aziendali e valutare le opportunita di collaborazione,Commerciale,bassa
+98,Aggiornamento listino prodotti,Il cliente ha richiesto informazioni aggiuntive e occorre analizzare le sue esigenze per formulare una risposta adeguata,Commerciale,media
+99,Preparazione offerta commerciale,Il reparto vendite deve preparare una proposta dettagliata per un nuovo cliente includendo analisi dei costi benefici e descrizione dei servizi offerti,Commerciale,alta
+100,Studio mercato di riferimento,Il cliente ha richiesto informazioni aggiuntive e occorre analizzare le sue esigenze per formulare una risposta adeguata,Commerciale,media
+101,Preparazione offerta commerciale,Il cliente ha richiesto informazioni aggiuntive e occorre analizzare le sue esigenze per formulare una risposta adeguata,Commerciale,alta
+102,Analisi richieste cliente,Il cliente ha richiesto informazioni aggiuntive e occorre analizzare le sue esigenze per formulare una risposta adeguata,Commerciale,bassa
+103,Studio mercato di riferimento,Il cliente ha richiesto informazioni aggiuntive e occorre analizzare le sue esigenze per formulare una risposta adeguata,Commerciale,media
+104,Verifica server principale,Un applicativo aziendale presenta un malfunzionamento che impedisce agli utenti di completare alcune operazioni fondamentali,Tecnico,media
+105,Analisi richieste cliente,Il reparto vendite deve preparare una proposta dettagliata per un nuovo cliente includendo analisi dei costi benefici e descrizione dei servizi offerti,Commerciale,bassa
+106,Analisi costi operativi,Occorre gestire una serie di pratiche interne che richiedono coordinamento tra diversi reparti per evitare ritardi nelle attivita,Amministrazione,alta
+107,Preparazione offerta commerciale,Il cliente ha richiesto informazioni aggiuntive e occorre analizzare le sue esigenze per formulare una risposta adeguata,Commerciale,bassa
+108,Aggiornamento software gestionale,Un applicativo aziendale presenta un malfunzionamento che impedisce agli utenti di completare alcune operazioni fondamentali,Tecnico,alta
+109,Aggiornamento listino prodotti,Il cliente ha richiesto informazioni aggiuntive e occorre analizzare le sue esigenze per formulare una risposta adeguata,Commerciale,bassa
+110,Aggiornamento listino prodotti,Occorre aggiornare il listino prodotti per riflettere le nuove condizioni commerciali e garantire trasparenza verso i clienti,Commerciale,media
+111,Analisi costi operativi,L ufficio necessita di una verifica approfondita della documentazione per assicurare la conformita alle normative vigenti e migliorare la tracciabilita dei processi,Amministrazione,bassa
+112,Aggiornamento listino prodotti,Il cliente ha richiesto informazioni aggiuntive e occorre analizzare le sue esigenze per formulare una risposta adeguata,Commerciale,alta
+113,Richiesta aggiornamento procedure interne,L ufficio necessita di una verifica approfondita della documentazione per assicurare la conformita alle normative vigenti e migliorare la tracciabilita dei processi,Amministrazione,media
+114,Errore critico nel sistema di autenticazione,Un applicativo aziendale presenta un malfunzionamento che impedisce agli utenti di completare alcune operazioni fondamentali,Tecnico,bassa
+115,Analisi malfunzionamento applicativo,Il server principale mostra rallentamenti significativi e richiede una verifica tecnica approfondita per evitare possibili interruzioni,Tecnico,bassa
+116,Analisi costi operativi,Si richiede una revisione dei contratti aziendali per aggiornare le clausole e garantire una maggiore tutela legale,Amministrazione,media
+117,Pianificazione incontro vendita,Occorre aggiornare il listino prodotti per riflettere le nuove condizioni commerciali e garantire trasparenza verso i clienti,Commerciale,media
+118,Revisione contratti aziendali,Il dipendente richiede una revisione completa delle procedure interne per migliorare la gestione dei flussi amministrativi e garantire maggiore efficienza operativa,Amministrazione,media
+119,Problema rete interna,Diversi utenti segnalano difficolta di accesso al sistema e il tecnico deve analizzare il problema per ripristinare la piena funzionalita del servizio,Tecnico,alta
+120,Richiesta aggiornamento procedure interne,Il dipendente richiede una revisione completa delle procedure interne per migliorare la gestione dei flussi amministrativi e garantire maggiore efficienza operativa,Amministrazione,alta
+121,Errore critico nel sistema di autenticazione,Un applicativo aziendale presenta un malfunzionamento che impedisce agli utenti di completare alcune operazioni fondamentali,Tecnico,alta
+122,Preparazione offerta commerciale,Il team commerciale deve studiare il mercato di riferimento per identificare nuove opportunita e migliorare la strategia di vendita,Commerciale,alta
+123,Aggiornamento software gestionale,La rete interna presenta instabilita che compromettono il lavoro dei dipendenti e richiedono un intervento immediato per identificare la causa,Tecnico,alta
+124,Aggiornamento listino prodotti,E necessario pianificare un incontro commerciale per presentare i prodotti aziendali e valutare le opportunita di collaborazione,Commerciale,bassa
+125,Preparazione offerta commerciale,Il reparto vendite deve preparare una proposta dettagliata per un nuovo cliente includendo analisi dei costi benefici e descrizione dei servizi offerti,Commerciale,media
+126,Revisione contratti aziendali,E necessaria un analisi dettagliata dei costi operativi per individuare possibili ottimizzazioni e riduzioni di spesa,Amministrazione,alta
+127,Analisi richieste cliente,Il team commerciale deve studiare il mercato di riferimento per identificare nuove opportunita e migliorare la strategia di vendita,Commerciale,media
+128,Aggiornamento software gestionale,Un applicativo aziendale presenta un malfunzionamento che impedisce agli utenti di completare alcune operazioni fondamentali,Tecnico,alta
+129,Verifica server principale,Diversi utenti segnalano difficolta di accesso al sistema e il tecnico deve analizzare il problema per ripristinare la piena funzionalita del servizio,Tecnico,alta
+130,Gestione pratiche interne,Il dipendente richiede una revisione completa delle procedure interne per migliorare la gestione dei flussi amministrativi e garantire maggiore efficienza operativa,Amministrazione,media
+131,Richiesta aggiornamento procedure interne,Il dipendente richiede una revisione completa delle procedure interne per migliorare la gestione dei flussi amministrativi e garantire maggiore efficienza operativa,Amministrazione,bassa
+132,Revisione contratti aziendali,E necessaria un analisi dettagliata dei costi operativi per individuare possibili ottimizzazioni e riduzioni di spesa,Amministrazione,media
+133,Revisione contratti aziendali,L ufficio necessita di una verifica approfondita della documentazione per assicurare la conformita alle normative vigenti e migliorare la tracciabilita dei processi,Amministrazione,media
+134,Analisi malfunzionamento applicativo,Diversi utenti segnalano difficolta di accesso al sistema e il tecnico deve analizzare il problema per ripristinare la piena funzionalita del servizio,Tecnico,alta
+135,Preparazione offerta commerciale,E necessario pianificare un incontro commerciale per presentare i prodotti aziendali e valutare le opportunita di collaborazione,Commerciale,bassa
+136,Analisi costi operativi,Occorre gestire una serie di pratiche interne che richiedono coordinamento tra diversi reparti per evitare ritardi nelle attivita,Amministrazione,bassa
+137,Analisi malfunzionamento applicativo,Il server principale mostra rallentamenti significativi e richiede una verifica tecnica approfondita per evitare possibili interruzioni,Tecnico,media
+138,Verifica server principale,Un applicativo aziendale presenta un malfunzionamento che impedisce agli utenti di completare alcune operazioni fondamentali,Tecnico,media
+139,Analisi richieste cliente,Il cliente ha richiesto informazioni aggiuntive e occorre analizzare le sue esigenze per formulare una risposta adeguata,Commerciale,media
+140,Analisi richieste cliente,Il reparto vendite deve preparare una proposta dettagliata per un nuovo cliente includendo analisi dei costi benefici e descrizione dei servizi offerti,Commerciale,media
+141,Problema rete interna,Il software gestionale necessita di un aggiornamento per correggere errori e migliorare le prestazioni complessive del sistema,Tecnico,alta
+142,Gestione pratiche interne,E necessaria un analisi dettagliata dei costi operativi per individuare possibili ottimizzazioni e riduzioni di spesa,Amministrazione,media
+143,Preparazione offerta commerciale,Il team commerciale deve studiare il mercato di riferimento per identificare nuove opportunita e migliorare la strategia di vendita,Commerciale,bassa
+144,Revisione contratti aziendali,Si richiede una revisione dei contratti aziendali per aggiornare le clausole e garantire una maggiore tutela legale,Amministrazione,alta
+145,Revisione contratti aziendali,Occorre gestire una serie di pratiche interne che richiedono coordinamento tra diversi reparti per evitare ritardi nelle attivita,Amministrazione,bassa
+146,Analisi richieste cliente,Il cliente ha richiesto informazioni aggiuntive e occorre analizzare le sue esigenze per formulare una risposta adeguata,Commerciale,bassa
+147,Verifica server principale,Un applicativo aziendale presenta un malfunzionamento che impedisce agli utenti di completare alcune operazioni fondamentali,Tecnico,media
+148,Aggiornamento software gestionale,Un applicativo aziendale presenta un malfunzionamento che impedisce agli utenti di completare alcune operazioni fondamentali,Tecnico,alta
+149,Revisione contratti aziendali,Occorre gestire una serie di pratiche interne che richiedono coordinamento tra diversi reparti per evitare ritardi nelle attivita,Amministrazione,media
+150,Pianificazione incontro vendita,Il team commerciale deve studiare il mercato di riferimento per identificare nuove opportunita e migliorare la strategia di vendita,Commerciale,alta
+151,Pianificazione incontro vendita,E necessario pianificare un incontro commerciale per presentare i prodotti aziendali e valutare le opportunita di collaborazione,Commerciale,alta
+152,Aggiornamento listino prodotti,Il cliente ha richiesto informazioni aggiuntive e occorre analizzare le sue esigenze per formulare una risposta adeguata,Commerciale,bassa
+153,Analisi costi operativi,E necessaria un analisi dettagliata dei costi operativi per individuare possibili ottimizzazioni e riduzioni di spesa,Amministrazione,media
+154,Problema rete interna,Diversi utenti segnalano difficolta di accesso al sistema e il tecnico deve analizzare il problema per ripristinare la piena funzionalita del servizio,Tecnico,bassa
+155,Studio mercato di riferimento,Occorre aggiornare il listino prodotti per riflettere le nuove condizioni commerciali e garantire trasparenza verso i clienti,Commerciale,alta
+156,Verifica server principale,Il software gestionale necessita di un aggiornamento per correggere errori e migliorare le prestazioni complessive del sistema,Tecnico,media
+157,Revisione contratti aziendali,Il dipendente richiede una revisione completa delle procedure interne per migliorare la gestione dei flussi amministrativi e garantire maggiore efficienza operativa,Amministrazione,alta
+158,Aggiornamento listino prodotti,Il cliente ha richiesto informazioni aggiuntive e occorre analizzare le sue esigenze per formulare una risposta adeguata,Commerciale,bassa
+159,Gestione pratiche interne,Si richiede una revisione dei contratti aziendali per aggiornare le clausole e garantire una maggiore tutela legale,Amministrazione,media
+160,Revisione contratti aziendali,Occorre gestire una serie di pratiche interne che richiedono coordinamento tra diversi reparti per evitare ritardi nelle attivita,Amministrazione,alta
+161,Gestione pratiche interne,Il dipendente richiede una revisione completa delle procedure interne per migliorare la gestione dei flussi amministrativi e garantire maggiore efficienza operativa,Amministrazione,bassa
+162,Gestione pratiche interne,Il dipendente richiede una revisione completa delle procedure interne per migliorare la gestione dei flussi amministrativi e garantire maggiore efficienza operativa,Amministrazione,bassa
+163,Richiesta aggiornamento procedure interne,E necessaria un analisi dettagliata dei costi operativi per individuare possibili ottimizzazioni e riduzioni di spesa,Amministrazione,alta
+164,Analisi richieste cliente,Occorre aggiornare il listino prodotti per riflettere le nuove condizioni commerciali e garantire trasparenza verso i clienti,Commerciale,alta
+165,Analisi malfunzionamento applicativo,Diversi utenti segnalano difficolta di accesso al sistema e il tecnico deve analizzare il problema per ripristinare la piena funzionalita del servizio,Tecnico,bassa
+166,Aggiornamento software gestionale,Un applicativo aziendale presenta un malfunzionamento che impedisce agli utenti di completare alcune operazioni fondamentali,Tecnico,media
+167,Errore critico nel sistema di autenticazione,Diversi utenti segnalano difficolta di accesso al sistema e il tecnico deve analizzare il problema per ripristinare la piena funzionalita del servizio,Tecnico,bassa
+168,Verifica server principale,Un applicativo aziendale presenta un malfunzionamento che impedisce agli utenti di completare alcune operazioni fondamentali,Tecnico,bassa
+169,Aggiornamento listino prodotti,E necessario pianificare un incontro commerciale per presentare i prodotti aziendali e valutare le opportunita di collaborazione,Commerciale,media
+170,Revisione contratti aziendali,Si richiede una revisione dei contratti aziendali per aggiornare le clausole e garantire una maggiore tutela legale,Amministrazione,alta
+171,Preparazione offerta commerciale,E necessario pianificare un incontro commerciale per presentare i prodotti aziendali e valutare le opportunita di collaborazione,Commerciale,media
+172,Analisi costi operativi,Occorre gestire una serie di pratiche interne che richiedono coordinamento tra diversi reparti per evitare ritardi nelle attivita,Amministrazione,alta
+173,Analisi malfunzionamento applicativo,Il server principale mostra rallentamenti significativi e richiede una verifica tecnica approfondita per evitare possibili interruzioni,Tecnico,alta
+174,Pianificazione incontro vendita,E necessario pianificare un incontro commerciale per presentare i prodotti aziendali e valutare le opportunita di collaborazione,Commerciale,bassa
+175,Aggiornamento software gestionale,Il software gestionale necessita di un aggiornamento per correggere errori e migliorare le prestazioni complessive del sistema,Tecnico,media
+176,Revisione contratti aziendali,Si richiede una revisione dei contratti aziendali per aggiornare le clausole e garantire una maggiore tutela legale,Amministrazione,alta
+177,Gestione pratiche interne,Si richiede una revisione dei contratti aziendali per aggiornare le clausole e garantire una maggiore tutela legale,Amministrazione,alta
+178,Revisione contratti aziendali,Occorre gestire una serie di pratiche interne che richiedono coordinamento tra diversi reparti per evitare ritardi nelle attivita,Amministrazione,alta
+179,Aggiornamento listino prodotti,Il cliente ha richiesto informazioni aggiuntive e occorre analizzare le sue esigenze per formulare una risposta adeguata,Commerciale,alta
+180,Studio mercato di riferimento,Il cliente ha richiesto informazioni aggiuntive e occorre analizzare le sue esigenze per formulare una risposta adeguata,Commerciale,bassa
+181,Verifica server principale,La rete interna presenta instabilita che compromettono il lavoro dei dipendenti e richiedono un intervento immediato per identificare la causa,Tecnico,media
+182,Studio mercato di riferimento,E necessario pianificare un incontro commerciale per presentare i prodotti aziendali e valutare le opportunita di collaborazione,Commerciale,alta
+183,Gestione pratiche interne,Il dipendente richiede una revisione completa delle procedure interne per migliorare la gestione dei flussi amministrativi e garantire maggiore efficienza operativa,Amministrazione,alta
+184,Studio mercato di riferimento,Occorre aggiornare il listino prodotti per riflettere le nuove condizioni commerciali e garantire trasparenza verso i clienti,Commerciale,bassa
+185,Analisi costi operativi,E necessaria un analisi dettagliata dei costi operativi per individuare possibili ottimizzazioni e riduzioni di spesa,Amministrazione,bassa
+186,Analisi malfunzionamento applicativo,Diversi utenti segnalano difficolta di accesso al sistema e il tecnico deve analizzare il problema per ripristinare la piena funzionalita del servizio,Tecnico,media
+187,Verifica server principale,Il server principale mostra rallentamenti significativi e richiede una verifica tecnica approfondita per evitare possibili interruzioni,Tecnico,media
+188,Verifica documentazione amministrativa,Si richiede una revisione dei contratti aziendali per aggiornare le clausole e garantire una maggiore tutela legale,Amministrazione,bassa
+189,Analisi malfunzionamento applicativo,Il software gestionale necessita di un aggiornamento per correggere errori e migliorare le prestazioni complessive del sistema,Tecnico,alta
+190,Verifica server principale,Un applicativo aziendale presenta un malfunzionamento che impedisce agli utenti di completare alcune operazioni fondamentali,Tecnico,media
+191,Revisione contratti aziendali,L ufficio necessita di una verifica approfondita della documentazione per assicurare la conformita alle normative vigenti e migliorare la tracciabilita dei processi,Amministrazione,bassa
+192,Preparazione offerta commerciale,E necessario pianificare un incontro commerciale per presentare i prodotti aziendali e valutare le opportunita di collaborazione,Commerciale,media
+193,Verifica server principale,La rete interna presenta instabilita che compromettono il lavoro dei dipendenti e richiedono un intervento immediato per identificare la causa,Tecnico,bassa
+194,Problema rete interna,Diversi utenti segnalano difficolta di accesso al sistema e il tecnico deve analizzare il problema per ripristinare la piena funzionalita del servizio,Tecnico,media
+195,Preparazione offerta commerciale,Occorre aggiornare il listino prodotti per riflettere le nuove condizioni commerciali e garantire trasparenza verso i clienti,Commerciale,alta
+196,Analisi costi operativi,E necessaria un analisi dettagliata dei costi operativi per individuare possibili ottimizzazioni e riduzioni di spesa,Amministrazione,media
+197,Revisione contratti aziendali,Occorre gestire una serie di pratiche interne che richiedono coordinamento tra diversi reparti per evitare ritardi nelle attivita,Amministrazione,media
+198,Preparazione offerta commerciale,Il cliente ha richiesto informazioni aggiuntive e occorre analizzare le sue esigenze per formulare una risposta adeguata,Commerciale,bassa
+199,Verifica documentazione amministrativa,Occorre gestire una serie di pratiche interne che richiedono coordinamento tra diversi reparti per evitare ritardi nelle attivita,Amministrazione,media
+200,Pianificazione incontro vendita,Occorre aggiornare il listino prodotti per riflettere le nuove condizioni commerciali e garantire trasparenza verso i clienti,Commerciale,media
+201,Aggiornamento software gestionale,Il server principale mostra rallentamenti significativi e richiede una verifica tecnica approfondita per evitare possibili interruzioni,Tecnico,bassa
+202,Aggiornamento listino prodotti,Il cliente ha richiesto informazioni aggiuntive e occorre analizzare le sue esigenze per formulare una risposta adeguata,Commerciale,media
+203,Preparazione offerta commerciale,Il cliente ha richiesto informazioni aggiuntive e occorre analizzare le sue esigenze per formulare una risposta adeguata,Commerciale,alta
+204,Gestione pratiche interne,Si richiede una revisione dei contratti aziendali per aggiornare le clausole e garantire una maggiore tutela legale,Amministrazione,media
+205,Gestione pratiche interne,Occorre gestire una serie di pratiche interne che richiedono coordinamento tra diversi reparti per evitare ritardi nelle attivita,Amministrazione,media
+206,Preparazione offerta commerciale,Occorre aggiornare il listino prodotti per riflettere le nuove condizioni commerciali e garantire trasparenza verso i clienti,Commerciale,media
+207,Pianificazione incontro vendita,Il team commerciale deve studiare il mercato di riferimento per identificare nuove opportunita e migliorare la strategia di vendita,Commerciale,alta
+208,Analisi richieste cliente,Occorre aggiornare il listino prodotti per riflettere le nuove condizioni commerciali e garantire trasparenza verso i clienti,Commerciale,media
+209,Analisi richieste cliente,E necessario pianificare un incontro commerciale per presentare i prodotti aziendali e valutare le opportunita di collaborazione,Commerciale,alta
+210,Analisi malfunzionamento applicativo,Un applicativo aziendale presenta un malfunzionamento che impedisce agli utenti di completare alcune operazioni fondamentali,Tecnico,bassa
+211,Aggiornamento software gestionale,Un applicativo aziendale presenta un malfunzionamento che impedisce agli utenti di completare alcune operazioni fondamentali,Tecnico,bassa
+212,Aggiornamento listino prodotti,Il reparto vendite deve preparare una proposta dettagliata per un nuovo cliente includendo analisi dei costi benefici e descrizione dei servizi offerti,Commerciale,alta
+213,Preparazione offerta commerciale,Il cliente ha richiesto informazioni aggiuntive e occorre analizzare le sue esigenze per formulare una risposta adeguata,Commerciale,bassa
+214,Analisi malfunzionamento applicativo,La rete interna presenta instabilita che compromettono il lavoro dei dipendenti e richiedono un intervento immediato per identificare la causa,Tecnico,media
+215,Problema rete interna,Il server principale mostra rallentamenti significativi e richiede una verifica tecnica approfondita per evitare possibili interruzioni,Tecnico,alta
+216,Gestione pratiche interne,Si richiede una revisione dei contratti aziendali per aggiornare le clausole e garantire una maggiore tutela legale,Amministrazione,bassa
+217,Revisione contratti aziendali,Si richiede una revisione dei contratti aziendali per aggiornare le clausole e garantire una maggiore tutela legale,Amministrazione,bassa
+218,Analisi costi operativi,E necessaria un analisi dettagliata dei costi operativi per individuare possibili ottimizzazioni e riduzioni di spesa,Amministrazione,bassa
+219,Analisi malfunzionamento applicativo,Il software gestionale necessita di un aggiornamento per correggere errori e migliorare le prestazioni complessive del sistema,Tecnico,media
+220,Aggiornamento software gestionale,La rete interna presenta instabilita che compromettono il lavoro dei dipendenti e richiedono un intervento immediato per identificare la causa,Tecnico,media
+221,Aggiornamento listino prodotti,Il team commerciale deve studiare il mercato di riferimento per identificare nuove opportunita e migliorare la strategia di vendita,Commerciale,media
+222,Aggiornamento listino prodotti,Il reparto vendite deve preparare una proposta dettagliata per un nuovo cliente includendo analisi dei costi benefici e descrizione dei servizi offerti,Commerciale,media
+223,Preparazione offerta commerciale,Il reparto vendite deve preparare una proposta dettagliata per un nuovo cliente includendo analisi dei costi benefici e descrizione dei servizi offerti,Commerciale,bassa
+224,Aggiornamento software gestionale,Diversi utenti segnalano difficolta di accesso al sistema e il tecnico deve analizzare il problema per ripristinare la piena funzionalita del servizio,Tecnico,alta
+225,Verifica documentazione amministrativa,E necessaria un analisi dettagliata dei costi operativi per individuare possibili ottimizzazioni e riduzioni di spesa,Amministrazione,bassa
+226,Studio mercato di riferimento,Il cliente ha richiesto informazioni aggiuntive e occorre analizzare le sue esigenze per formulare una risposta adeguata,Commerciale,alta
+227,Analisi costi operativi,Si richiede una revisione dei contratti aziendali per aggiornare le clausole e garantire una maggiore tutela legale,Amministrazione,alta
+228,Verifica documentazione amministrativa,L ufficio necessita di una verifica approfondita della documentazione per assicurare la conformita alle normative vigenti e migliorare la tracciabilita dei processi,Amministrazione,alta
+229,Pianificazione incontro vendita,E necessario pianificare un incontro commerciale per presentare i prodotti aziendali e valutare le opportunita di collaborazione,Commerciale,bassa
+230,Aggiornamento software gestionale,Il software gestionale necessita di un aggiornamento per correggere errori e migliorare le prestazioni complessive del sistema,Tecnico,media
+231,Verifica server principale,Il software gestionale necessita di un aggiornamento per correggere errori e migliorare le prestazioni complessive del sistema,Tecnico,media
+232,Problema rete interna,La rete interna presenta instabilita che compromettono il lavoro dei dipendenti e richiedono un intervento immediato per identificare la causa,Tecnico,media
+233,Analisi richieste cliente,Il reparto vendite deve preparare una proposta dettagliata per un nuovo cliente includendo analisi dei costi benefici e descrizione dei servizi offerti,Commerciale,media
+234,Pianificazione incontro vendita,Il team commerciale deve studiare il mercato di riferimento per identificare nuove opportunita e migliorare la strategia di vendita,Commerciale,media
+235,Analisi malfunzionamento applicativo,La rete interna presenta instabilita che compromettono il lavoro dei dipendenti e richiedono un intervento immediato per identificare la causa,Tecnico,bassa
+236,Analisi richieste cliente,E necessario pianificare un incontro commerciale per presentare i prodotti aziendali e valutare le opportunita di collaborazione,Commerciale,alta
+237,Studio mercato di riferimento,Occorre aggiornare il listino prodotti per riflettere le nuove condizioni commerciali e garantire trasparenza verso i clienti,Commerciale,media
+238,Revisione contratti aziendali,Il dipendente richiede una revisione completa delle procedure interne per migliorare la gestione dei flussi amministrativi e garantire maggiore efficienza operativa,Amministrazione,alta
+239,Verifica documentazione amministrativa,E necessaria un analisi dettagliata dei costi operativi per individuare possibili ottimizzazioni e riduzioni di spesa,Amministrazione,media
+240,Analisi richieste cliente,E necessario pianificare un incontro commerciale per presentare i prodotti aziendali e valutare le opportunita di collaborazione,Commerciale,media
+241,Preparazione offerta commerciale,Il team commerciale deve studiare il mercato di riferimento per identificare nuove opportunita e migliorare la strategia di vendita,Commerciale,media
+242,Verifica documentazione amministrativa,Il dipendente richiede una revisione completa delle procedure interne per migliorare la gestione dei flussi amministrativi e garantire maggiore efficienza operativa,Amministrazione,bassa
+243,Aggiornamento software gestionale,Il server principale mostra rallentamenti significativi e richiede una verifica tecnica approfondita per evitare possibili interruzioni,Tecnico,media
+244,Analisi costi operativi,Si richiede una revisione dei contratti aziendali per aggiornare le clausole e garantire una maggiore tutela legale,Amministrazione,alta
+245,Analisi costi operativi,E necessaria un analisi dettagliata dei costi operativi per individuare possibili ottimizzazioni e riduzioni di spesa,Amministrazione,alta
+246,Problema rete interna,La rete interna presenta instabilita che compromettono il lavoro dei dipendenti e richiedono un intervento immediato per identificare la causa,Tecnico,media
+247,Analisi malfunzionamento applicativo,Un applicativo aziendale presenta un malfunzionamento che impedisce agli utenti di completare alcune operazioni fondamentali,Tecnico,alta
+248,Analisi costi operativi,Si richiede una revisione dei contratti aziendali per aggiornare le clausole e garantire una maggiore tutela legale,Amministrazione,alta
+249,Errore critico nel sistema di autenticazione,Diversi utenti segnalano difficolta di accesso al sistema e il tecnico deve analizzare il problema per ripristinare la piena funzionalita del servizio,Tecnico,media
+250,Studio mercato di riferimento,E necessario pianificare un incontro commerciale per presentare i prodotti aziendali e valutare le opportunita di collaborazione,Commerciale,bassa
+251,Analisi costi operativi,L ufficio necessita di una verifica approfondita della documentazione per assicurare la conformita alle normative vigenti e migliorare la tracciabilita dei processi,Amministrazione,bassa
+252,Errore critico nel sistema di autenticazione,Diversi utenti segnalano difficolta di accesso al sistema e il tecnico deve analizzare il problema per ripristinare la piena funzionalita del servizio,Tecnico,bassa
+253,Richiesta aggiornamento procedure interne,E necessaria un analisi dettagliata dei costi operativi per individuare possibili ottimizzazioni e riduzioni di spesa,Amministrazione,bassa
+254,Revisione contratti aziendali,Si richiede una revisione dei contratti aziendali per aggiornare le clausole e garantire una maggiore tutela legale,Amministrazione,bassa
+255,Analisi costi operativi,Il dipendente richiede una revisione completa delle procedure interne per migliorare la gestione dei flussi amministrativi e garantire maggiore efficienza operativa,Amministrazione,alta
+256,Aggiornamento software gestionale,Il software gestionale necessita di un aggiornamento per correggere errori e migliorare le prestazioni complessive del sistema,Tecnico,alta
+257,Studio mercato di riferimento,Il reparto vendite deve preparare una proposta dettagliata per un nuovo cliente includendo analisi dei costi benefici e descrizione dei servizi offerti,Commerciale,alta
+258,Richiesta aggiornamento procedure interne,E necessaria un analisi dettagliata dei costi operativi per individuare possibili ottimizzazioni e riduzioni di spesa,Amministrazione,alta
+259,Analisi richieste cliente,Il team commerciale deve studiare il mercato di riferimento per identificare nuove opportunita e migliorare la strategia di vendita,Commerciale,bassa
+260,Aggiornamento listino prodotti,Occorre aggiornare il listino prodotti per riflettere le nuove condizioni commerciali e garantire trasparenza verso i clienti,Commerciale,media
+261,Verifica server principale,Diversi utenti segnalano difficolta di accesso al sistema e il tecnico deve analizzare il problema per ripristinare la piena funzionalita del servizio,Tecnico,bassa
+262,Aggiornamento software gestionale,Il software gestionale necessita di un aggiornamento per correggere errori e migliorare le prestazioni complessive del sistema,Tecnico,media
+263,Errore critico nel sistema di autenticazione,Diversi utenti segnalano difficolta di accesso al sistema e il tecnico deve analizzare il problema per ripristinare la piena funzionalita del servizio,Tecnico,media
+264,Studio mercato di riferimento,Il team commerciale deve studiare il mercato di riferimento per identificare nuove opportunita e migliorare la strategia di vendita,Commerciale,media
+265,Errore critico nel sistema di autenticazione,Un applicativo aziendale presenta un malfunzionamento che impedisce agli utenti di completare alcune operazioni fondamentali,Tecnico,alta
+266,Richiesta aggiornamento procedure interne,Si richiede una revisione dei contratti aziendali per aggiornare le clausole e garantire una maggiore tutela legale,Amministrazione,alta
+267,Aggiornamento listino prodotti,E necessario pianificare un incontro commerciale per presentare i prodotti aziendali e valutare le opportunita di collaborazione,Commerciale,bassa
+268,Problema rete interna,La rete interna presenta instabilita che compromettono il lavoro dei dipendenti e richiedono un intervento immediato per identificare la causa,Tecnico,bassa
+269,Studio mercato di riferimento,Occorre aggiornare il listino prodotti per riflettere le nuove condizioni commerciali e garantire trasparenza verso i clienti,Commerciale,alta
+270,Verifica server principale,Diversi utenti segnalano difficolta di accesso al sistema e il tecnico deve analizzare il problema per ripristinare la piena funzionalita del servizio,Tecnico,alta
+271,Aggiornamento software gestionale,Il server principale mostra rallentamenti significativi e richiede una verifica tecnica approfondita per evitare possibili interruzioni,Tecnico,alta
+272,Aggiornamento listino prodotti,Occorre aggiornare il listino prodotti per riflettere le nuove condizioni commerciali e garantire trasparenza verso i clienti,Commerciale,bassa
+273,Analisi richieste cliente,Il reparto vendite deve preparare una proposta dettagliata per un nuovo cliente includendo analisi dei costi benefici e descrizione dei servizi offerti,Commerciale,media
+274,Aggiornamento software gestionale,Un applicativo aziendale presenta un malfunzionamento che impedisce agli utenti di completare alcune operazioni fondamentali,Tecnico,alta
+275,Aggiornamento listino prodotti,Il team commerciale deve studiare il mercato di riferimento per identificare nuove opportunita e migliorare la strategia di vendita,Commerciale,bassa
+276,Pianificazione incontro vendita,E necessario pianificare un incontro commerciale per presentare i prodotti aziendali e valutare le opportunita di collaborazione,Commerciale,alta
+277,Richiesta aggiornamento procedure interne,L ufficio necessita di una verifica approfondita della documentazione per assicurare la conformita alle normative vigenti e migliorare la tracciabilita dei processi,Amministrazione,media
+278,Verifica documentazione amministrativa,Il dipendente richiede una revisione completa delle procedure interne per migliorare la gestione dei flussi amministrativi e garantire maggiore efficienza operativa,Amministrazione,alta
+279,Gestione pratiche interne,E necessaria un analisi dettagliata dei costi operativi per individuare possibili ottimizzazioni e riduzioni di spesa,Amministrazione,alta
+280,Verifica documentazione amministrativa,Il dipendente richiede una revisione completa delle procedure interne per migliorare la gestione dei flussi amministrativi e garantire maggiore efficienza operativa,Amministrazione,media
+281,Revisione contratti aziendali,E necessaria un analisi dettagliata dei costi operativi per individuare possibili ottimizzazioni e riduzioni di spesa,Amministrazione,bassa
+282,Verifica server principale,La rete interna presenta instabilita che compromettono il lavoro dei dipendenti e richiedono un intervento immediato per identificare la causa,Tecnico,alta
+283,Preparazione offerta commerciale,Il team commerciale deve studiare il mercato di riferimento per identificare nuove opportunita e migliorare la strategia di vendita,Commerciale,bassa
+284,Analisi costi operativi,Si richiede una revisione dei contratti aziendali per aggiornare le clausole e garantire una maggiore tutela legale,Amministrazione,media
+285,Studio mercato di riferimento,Occorre aggiornare il listino prodotti per riflettere le nuove condizioni commerciali e garantire trasparenza verso i clienti,Commerciale,bassa
+286,Pianificazione incontro vendita,Il cliente ha richiesto informazioni aggiuntive e occorre analizzare le sue esigenze per formulare una risposta adeguata,Commerciale,alta
+287,Verifica documentazione amministrativa,E necessaria un analisi dettagliata dei costi operativi per individuare possibili ottimizzazioni e riduzioni di spesa,Amministrazione,media
+288,Analisi richieste cliente,Il team commerciale deve studiare il mercato di riferimento per identificare nuove opportunita e migliorare la strategia di vendita,Commerciale,bassa
+289,Errore critico nel sistema di autenticazione,Il software gestionale necessita di un aggiornamento per correggere errori e migliorare le prestazioni complessive del sistema,Tecnico,bassa
+290,Revisione contratti aziendali,E necessaria un analisi dettagliata dei costi operativi per individuare possibili ottimizzazioni e riduzioni di spesa,Amministrazione,alta
+291,Verifica documentazione amministrativa,L ufficio necessita di una verifica approfondita della documentazione per assicurare la conformita alle normative vigenti e migliorare la tracciabilita dei processi,Amministrazione,bassa
+292,Pianificazione incontro vendita,Occorre aggiornare il listino prodotti per riflettere le nuove condizioni commerciali e garantire trasparenza verso i clienti,Commerciale,media
+293,Richiesta aggiornamento procedure interne,E necessaria un analisi dettagliata dei costi operativi per individuare possibili ottimizzazioni e riduzioni di spesa,Amministrazione,bassa
+294,Analisi richieste cliente,Il reparto vendite deve preparare una proposta dettagliata per un nuovo cliente includendo analisi dei costi benefici e descrizione dei servizi offerti,Commerciale,alta
+295,Gestione pratiche interne,Occorre gestire una serie di pratiche interne che richiedono coordinamento tra diversi reparti per evitare ritardi nelle attivita,Amministrazione,alta
+296,Problema rete interna,Un applicativo aziendale presenta un malfunzionamento che impedisce agli utenti di completare alcune operazioni fondamentali,Tecnico,media
+297,Analisi malfunzionamento applicativo,Diversi utenti segnalano difficolta di accesso al sistema e il tecnico deve analizzare il problema per ripristinare la piena funzionalita del servizio,Tecnico,media
+298,Analisi costi operativi,Occorre gestire una serie di pratiche interne che richiedono coordinamento tra diversi reparti per evitare ritardi nelle attivita,Amministrazione,bassa
+299,Richiesta aggiornamento procedure interne,Si richiede una revisione dei contratti aziendali per aggiornare le clausole e garantire una maggiore tutela legale,Amministrazione,alta
+300,Analisi richieste cliente,Il reparto vendite deve preparare una proposta dettagliata per un nuovo cliente includendo analisi dei costi benefici e descrizione dei servizi offerti,Commerciale,bassa
+301,Aggiornamento listino prodotti,Occorre aggiornare il listino prodotti per riflettere le nuove condizioni commerciali e garantire trasparenza verso i clienti,Commerciale,alta
+302,Preparazione offerta commerciale,Il cliente ha richiesto informazioni aggiuntive e occorre analizzare le sue esigenze per formulare una risposta adeguata,Commerciale,alta
+303,Analisi malfunzionamento applicativo,La rete interna presenta instabilita che compromettono il lavoro dei dipendenti e richiedono un intervento immediato per identificare la causa,Tecnico,media
+304,Pianificazione incontro vendita,Il cliente ha richiesto informazioni aggiuntive e occorre analizzare le sue esigenze per formulare una risposta adeguata,Commerciale,bassa
+305,Problema rete interna,Il software gestionale necessita di un aggiornamento per correggere errori e migliorare le prestazioni complessive del sistema,Tecnico,alta
+306,Preparazione offerta commerciale,Il cliente ha richiesto informazioni aggiuntive e occorre analizzare le sue esigenze per formulare una risposta adeguata,Commerciale,alta
+307,Aggiornamento software gestionale,Il software gestionale necessita di un aggiornamento per correggere errori e migliorare le prestazioni complessive del sistema,Tecnico,alta
+308,Preparazione offerta commerciale,Il cliente ha richiesto informazioni aggiuntive e occorre analizzare le sue esigenze per formulare una risposta adeguata,Commerciale,media
+309,Problema rete interna,La rete interna presenta instabilita che compromettono il lavoro dei dipendenti e richiedono un intervento immediato per identificare la causa,Tecnico,media
+310,Preparazione offerta commerciale,Occorre aggiornare il listino prodotti per riflettere le nuove condizioni commerciali e garantire trasparenza verso i clienti,Commerciale,bassa
+311,Errore critico nel sistema di autenticazione,La rete interna presenta instabilita che compromettono il lavoro dei dipendenti e richiedono un intervento immediato per identificare la causa,Tecnico,alta
+312,Errore critico nel sistema di autenticazione,Il software gestionale necessita di un aggiornamento per correggere errori e migliorare le prestazioni complessive del sistema,Tecnico,alta
+313,Richiesta aggiornamento procedure interne,Si richiede una revisione dei contratti aziendali per aggiornare le clausole e garantire una maggiore tutela legale,Amministrazione,alta
+314,Pianificazione incontro vendita,Il team commerciale deve studiare il mercato di riferimento per identificare nuove opportunita e migliorare la strategia di vendita,Commerciale,alta
+315,Gestione pratiche interne,Il dipendente richiede una revisione completa delle procedure interne per migliorare la gestione dei flussi amministrativi e garantire maggiore efficienza operativa,Amministrazione,media
+316,Studio mercato di riferimento,Il team commerciale deve studiare il mercato di riferimento per identificare nuove opportunita e migliorare la strategia di vendita,Commerciale,alta
+317,Aggiornamento listino prodotti,Il team commerciale deve studiare il mercato di riferimento per identificare nuove opportunita e migliorare la strategia di vendita,Commerciale,alta
+318,Verifica documentazione amministrativa,E necessaria un analisi dettagliata dei costi operativi per individuare possibili ottimizzazioni e riduzioni di spesa,Amministrazione,bassa
+319,Verifica documentazione amministrativa,Occorre gestire una serie di pratiche interne che richiedono coordinamento tra diversi reparti per evitare ritardi nelle attivita,Amministrazione,media
+320,Verifica server principale,La rete interna presenta instabilita che compromettono il lavoro dei dipendenti e richiedono un intervento immediato per identificare la causa,Tecnico,bassa
+321,Aggiornamento software gestionale,La rete interna presenta instabilita che compromettono il lavoro dei dipendenti e richiedono un intervento immediato per identificare la causa,Tecnico,media
+322,Gestione pratiche interne,L ufficio necessita di una verifica approfondita della documentazione per assicurare la conformita alle normative vigenti e migliorare la tracciabilita dei processi,Amministrazione,alta
+323,Richiesta aggiornamento procedure interne,L ufficio necessita di una verifica approfondita della documentazione per assicurare la conformita alle normative vigenti e migliorare la tracciabilita dei processi,Amministrazione,alta
+324,Analisi richieste cliente,Il team commerciale deve studiare il mercato di riferimento per identificare nuove opportunita e migliorare la strategia di vendita,Commerciale,alta
+325,Preparazione offerta commerciale,E necessario pianificare un incontro commerciale per presentare i prodotti aziendali e valutare le opportunita di collaborazione,Commerciale,alta
+326,Aggiornamento software gestionale,Diversi utenti segnalano difficolta di accesso al sistema e il tecnico deve analizzare il problema per ripristinare la piena funzionalita del servizio,Tecnico,media
+327,Verifica server principale,Il server principale mostra rallentamenti significativi e richiede una verifica tecnica approfondita per evitare possibili interruzioni,Tecnico,media
+328,Verifica documentazione amministrativa,L ufficio necessita di una verifica approfondita della documentazione per assicurare la conformita alle normative vigenti e migliorare la tracciabilita dei processi,Amministrazione,bassa
+329,Aggiornamento listino prodotti,E necessario pianificare un incontro commerciale per presentare i prodotti aziendali e valutare le opportunita di collaborazione,Commerciale,alta
+330,Verifica server principale,La rete interna presenta instabilita che compromettono il lavoro dei dipendenti e richiedono un intervento immediato per identificare la causa,Tecnico,media
+331,Aggiornamento listino prodotti,Occorre aggiornare il listino prodotti per riflettere le nuove condizioni commerciali e garantire trasparenza verso i clienti,Commerciale,media
+332,Gestione pratiche interne,Si richiede una revisione dei contratti aziendali per aggiornare le clausole e garantire una maggiore tutela legale,Amministrazione,media
+333,Analisi richieste cliente,E necessario pianificare un incontro commerciale per presentare i prodotti aziendali e valutare le opportunita di collaborazione,Commerciale,alta
+334,Aggiornamento software gestionale,Il software gestionale necessita di un aggiornamento per correggere errori e migliorare le prestazioni complessive del sistema,Tecnico,alta
+335,Analisi malfunzionamento applicativo,Diversi utenti segnalano difficolta di accesso al sistema e il tecnico deve analizzare il problema per ripristinare la piena funzionalita del servizio,Tecnico,media
+336,Preparazione offerta commerciale,Il reparto vendite deve preparare una proposta dettagliata per un nuovo cliente includendo analisi dei costi benefici e descrizione dei servizi offerti,Commerciale,bassa
+337,Gestione pratiche interne,Occorre gestire una serie di pratiche interne che richiedono coordinamento tra diversi reparti per evitare ritardi nelle attivita,Amministrazione,media
+338,Revisione contratti aziendali,Occorre gestire una serie di pratiche interne che richiedono coordinamento tra diversi reparti per evitare ritardi nelle attivita,Amministrazione,alta
+339,Analisi malfunzionamento applicativo,La rete interna presenta instabilita che compromettono il lavoro dei dipendenti e richiedono un intervento immediato per identificare la causa,Tecnico,media
+340,Pianificazione incontro vendita,Il reparto vendite deve preparare una proposta dettagliata per un nuovo cliente includendo analisi dei costi benefici e descrizione dei servizi offerti,Commerciale,bassa
+341,Revisione contratti aziendali,E necessaria un analisi dettagliata dei costi operativi per individuare possibili ottimizzazioni e riduzioni di spesa,Amministrazione,bassa
+342,Aggiornamento software gestionale,Un applicativo aziendale presenta un malfunzionamento che impedisce agli utenti di completare alcune operazioni fondamentali,Tecnico,bassa
+343,Studio mercato di riferimento,E necessario pianificare un incontro commerciale per presentare i prodotti aziendali e valutare le opportunita di collaborazione,Commerciale,media
+344,Revisione contratti aziendali,Si richiede una revisione dei contratti aziendali per aggiornare le clausole e garantire una maggiore tutela legale,Amministrazione,alta
+345,Aggiornamento software gestionale,Un applicativo aziendale presenta un malfunzionamento che impedisce agli utenti di completare alcune operazioni fondamentali,Tecnico,media
+346,Verifica documentazione amministrativa,Occorre gestire una serie di pratiche interne che richiedono coordinamento tra diversi reparti per evitare ritardi nelle attivita,Amministrazione,media
+347,Analisi malfunzionamento applicativo,Diversi utenti segnalano difficolta di accesso al sistema e il tecnico deve analizzare il problema per ripristinare la piena funzionalita del servizio,Tecnico,bassa
+348,Aggiornamento software gestionale,Diversi utenti segnalano difficolta di accesso al sistema e il tecnico deve analizzare il problema per ripristinare la piena funzionalita del servizio,Tecnico,bassa
+349,Studio mercato di riferimento,Il reparto vendite deve preparare una proposta dettagliata per un nuovo cliente includendo analisi dei costi benefici e descrizione dei servizi offerti,Commerciale,alta
+350,Revisione contratti aziendali,Si richiede una revisione dei contratti aziendali per aggiornare le clausole e garantire una maggiore tutela legale,Amministrazione,bassa
+351,Analisi richieste cliente,Il reparto vendite deve preparare una proposta dettagliata per un nuovo cliente includendo analisi dei costi benefici e descrizione dei servizi offerti,Commerciale,bassa
+352,Errore critico nel sistema di autenticazione,La rete interna presenta instabilita che compromettono il lavoro dei dipendenti e richiedono un intervento immediato per identificare la causa,Tecnico,bassa
+353,Errore critico nel sistema di autenticazione,Un applicativo aziendale presenta un malfunzionamento che impedisce agli utenti di completare alcune operazioni fondamentali,Tecnico,bassa
+354,Studio mercato di riferimento,Il cliente ha richiesto informazioni aggiuntive e occorre analizzare le sue esigenze per formulare una risposta adeguata,Commerciale,bassa
+355,Studio mercato di riferimento,Il cliente ha richiesto informazioni aggiuntive e occorre analizzare le sue esigenze per formulare una risposta adeguata,Commerciale,media
+356,Analisi richieste cliente,Il cliente ha richiesto informazioni aggiuntive e occorre analizzare le sue esigenze per formulare una risposta adeguata,Commerciale,alta
+357,Verifica server principale,Il software gestionale necessita di un aggiornamento per correggere errori e migliorare le prestazioni complessive del sistema,Tecnico,alta
+358,Problema rete interna,Il software gestionale necessita di un aggiornamento per correggere errori e migliorare le prestazioni complessive del sistema,Tecnico,bassa
+359,Verifica documentazione amministrativa,Il dipendente richiede una revisione completa delle procedure interne per migliorare la gestione dei flussi amministrativi e garantire maggiore efficienza operativa,Amministrazione,bassa
+360,Gestione pratiche interne,L ufficio necessita di una verifica approfondita della documentazione per assicurare la conformita alle normative vigenti e migliorare la tracciabilita dei processi,Amministrazione,bassa
+361,Studio mercato di riferimento,Occorre aggiornare il listino prodotti per riflettere le nuove condizioni commerciali e garantire trasparenza verso i clienti,Commerciale,alta
+362,Problema rete interna,Il software gestionale necessita di un aggiornamento per correggere errori e migliorare le prestazioni complessive del sistema,Tecnico,media
+363,Aggiornamento software gestionale,Il software gestionale necessita di un aggiornamento per correggere errori e migliorare le prestazioni complessive del sistema,Tecnico,bassa
+364,Pianificazione incontro vendita,Il team commerciale deve studiare il mercato di riferimento per identificare nuove opportunita e migliorare la strategia di vendita,Commerciale,media
+365,Analisi malfunzionamento applicativo,Il server principale mostra rallentamenti significativi e richiede una verifica tecnica approfondita per evitare possibili interruzioni,Tecnico,alta
+366,Studio mercato di riferimento,Il reparto vendite deve preparare una proposta dettagliata per un nuovo cliente includendo analisi dei costi benefici e descrizione dei servizi offerti,Commerciale,alta
+367,Gestione pratiche interne,Si richiede una revisione dei contratti aziendali per aggiornare le clausole e garantire una maggiore tutela legale,Amministrazione,media
+368,Analisi costi operativi,Si richiede una revisione dei contratti aziendali per aggiornare le clausole e garantire una maggiore tutela legale,Amministrazione,bassa
+369,Gestione pratiche interne,L ufficio necessita di una verifica approfondita della documentazione per assicurare la conformita alle normative vigenti e migliorare la tracciabilita dei processi,Amministrazione,alta
+370,Verifica documentazione amministrativa,Si richiede una revisione dei contratti aziendali per aggiornare le clausole e garantire una maggiore tutela legale,Amministrazione,bassa
+371,Analisi costi operativi,E necessaria un analisi dettagliata dei costi operativi per individuare possibili ottimizzazioni e riduzioni di spesa,Amministrazione,bassa
+372,Verifica documentazione amministrativa,L ufficio necessita di una verifica approfondita della documentazione per assicurare la conformita alle normative vigenti e migliorare la tracciabilita dei processi,Amministrazione,media
+373,Analisi richieste cliente,Il cliente ha richiesto informazioni aggiuntive e occorre analizzare le sue esigenze per formulare una risposta adeguata,Commerciale,media
+374,Analisi malfunzionamento applicativo,La rete interna presenta instabilita che compromettono il lavoro dei dipendenti e richiedono un intervento immediato per identificare la causa,Tecnico,alta
+375,Aggiornamento software gestionale,Il software gestionale necessita di un aggiornamento per correggere errori e migliorare le prestazioni complessive del sistema,Tecnico,media
+376,Errore critico nel sistema di autenticazione,La rete interna presenta instabilita che compromettono il lavoro dei dipendenti e richiedono un intervento immediato per identificare la causa,Tecnico,media
+377,Verifica server principale,Diversi utenti segnalano difficolta di accesso al sistema e il tecnico deve analizzare il problema per ripristinare la piena funzionalita del servizio,Tecnico,alta
+378,Errore critico nel sistema di autenticazione,Il software gestionale necessita di un aggiornamento per correggere errori e migliorare le prestazioni complessive del sistema,Tecnico,alta
+379,Aggiornamento listino prodotti,Il team commerciale deve studiare il mercato di riferimento per identificare nuove opportunita e migliorare la strategia di vendita,Commerciale,bassa
+380,Verifica documentazione amministrativa,L ufficio necessita di una verifica approfondita della documentazione per assicurare la conformita alle normative vigenti e migliorare la tracciabilita dei processi,Amministrazione,media
+381,Richiesta aggiornamento procedure interne,Si richiede una revisione dei contratti aziendali per aggiornare le clausole e garantire una maggiore tutela legale,Amministrazione,bassa
+382,Aggiornamento software gestionale,Il software gestionale necessita di un aggiornamento per correggere errori e migliorare le prestazioni complessive del sistema,Tecnico,bassa
+383,Analisi richieste cliente,Il reparto vendite deve preparare una proposta dettagliata per un nuovo cliente includendo analisi dei costi benefici e descrizione dei servizi offerti,Commerciale,media
+384,Studio mercato di riferimento,Il cliente ha richiesto informazioni aggiuntive e occorre analizzare le sue esigenze per formulare una risposta adeguata,Commerciale,alta
+385,Aggiornamento listino prodotti,Il team commerciale deve studiare il mercato di riferimento per identificare nuove opportunita e migliorare la strategia di vendita,Commerciale,alta
+386,Analisi malfunzionamento applicativo,Un applicativo aziendale presenta un malfunzionamento che impedisce agli utenti di completare alcune operazioni fondamentali,Tecnico,alta
+387,Problema rete interna,Il software gestionale necessita di un aggiornamento per correggere errori e migliorare le prestazioni complessive del sistema,Tecnico,media
+388,Studio mercato di riferimento,Occorre aggiornare il listino prodotti per riflettere le nuove condizioni commerciali e garantire trasparenza verso i clienti,Commerciale,bassa
+389,Aggiornamento software gestionale,Un applicativo aziendale presenta un malfunzionamento che impedisce agli utenti di completare alcune operazioni fondamentali,Tecnico,alta
+390,Analisi costi operativi,Si richiede una revisione dei contratti aziendali per aggiornare le clausole e garantire una maggiore tutela legale,Amministrazione,media
+391,Pianificazione incontro vendita,Il cliente ha richiesto informazioni aggiuntive e occorre analizzare le sue esigenze per formulare una risposta adeguata,Commerciale,media
+392,Problema rete interna,Diversi utenti segnalano difficolta di accesso al sistema e il tecnico deve analizzare il problema per ripristinare la piena funzionalita del servizio,Tecnico,alta
+393,Pianificazione incontro vendita,Il cliente ha richiesto informazioni aggiuntive e occorre analizzare le sue esigenze per formulare una risposta adeguata,Commerciale,bassa
+394,Analisi costi operativi,Occorre gestire una serie di pratiche interne che richiedono coordinamento tra diversi reparti per evitare ritardi nelle attivita,Amministrazione,media
+395,Analisi richieste cliente,E necessario pianificare un incontro commerciale per presentare i prodotti aziendali e valutare le opportunita di collaborazione,Commerciale,alta
+396,Problema rete interna,Un applicativo aziendale presenta un malfunzionamento che impedisce agli utenti di completare alcune operazioni fondamentali,Tecnico,media
+397,Verifica server principale,Il software gestionale necessita di un aggiornamento per correggere errori e migliorare le prestazioni complessive del sistema,Tecnico,bassa
+398,Verifica documentazione amministrativa,Si richiede una revisione dei contratti aziendali per aggiornare le clausole e garantire una maggiore tutela legale,Amministrazione,bassa
+399,Errore critico nel sistema di autenticazione,Diversi utenti segnalano difficolta di accesso al sistema e il tecnico deve analizzare il problema per ripristinare la piena funzionalita del servizio,Tecnico,alta
+400,documentazione errata,la documentazione per la bolla di carico è errata ricompilare,Amministrazione,media
+401,pianificazione commerciale incompleta,dopo l'ultimo incontro non è stato possibile raggiungre una soluzione per il piano commerciale del prossimo semestre ripianificare una riunione il prima possibile,Commerciale,alta
